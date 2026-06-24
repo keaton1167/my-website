@@ -1,0 +1,52 @@
+---
+title: Oceanpayment ODPM-未上传物流信息订单查询及上传手册
+sidebar_label: Oceanpayment ODPM-未上传物流信息订单查询及上传手册
+sidebar_position: 1
+---
+## 未上传物流信息查询方式
+
+请您登录Oceanpayment账户后台进行操作查询，登录网址：[https://odpm.oceanpayment.com](https://odpm.oceanpayment.com/login)
+
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/RTQlblKlfoBPImxYFsAchTmxn2c.png)
+
+- 选择必要查询条件：Payment-交易查询—正式交易
+1. 时间注意选择需要查询的时间段（建议查询近七个月的交易）；
+2. 点击“高级筛选”；
+3. 在“请选择支付状态”栏中选择“成功”；
+4. 物流号状态中选择“未上传”、退款及拒付状态中选择“未退款、未拒付” ；
+5. 点击“查询”后可使用“下载”功能，下载未上传物流信息订单详情。
+
+## 物流信息上传方法及注意事项
+
+**方法一：**在订单完成发货后，可以通过跟我司对接物流API或者使用物流小程序，实现物流信息系统自动同步。可联系您的专属客户关系专员进行沟通对接。
+
+**方法二：**在Oceanpayment账户后台进行人工上传，具体操作流程参考下方“账户后台物流单号上传流程”。
+
+为提升订单物流信息的系统识别准确性，**提高您的资金回款率**，请仔细阅读以下**注意事项**：
+
+- 上传或同步物流网址时，填写您发货实际使用的物流公司的网址，注意不要填写：N/A等错误信息、第三方物流平台的网址（例如17Track、Trackdog等），将影响物流信息识别与准确性；
+- 物流单号只能填写数字与字母，注意不要使用：空格、”#“、“/"等字符，系统将无法识别，影响数据判断，如果存在一个订单对应多个物流单号的情况，需使用英文的逗号“,”进行分隔；
+
+## ODPM账户后台物流单号上传流程
+
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/ESGobP86ZoCMUcxPmLfcF52Rndg.png)
+
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/PGpBb2bsSoDa5fxoS4jcZblknpe.png)
+
+- 按上述“未上传物流信息信息查询方式”查询并下载后点击批量上传物流凭证功能（请使用“下载批量上传物流模板”）
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/AM4ib9c6lod7rFxWbfJcmUgAnpb.png)
+
+- 打开表格后可按上述“满周期未上传物流查询方式”中下载的表格匹配对应的Payment ID、Account Order。
+- 填写对应的物流单号及物流网址，注意文档填写格式如下：
+- 物流单号及物流网站填写时不能出现“？、！”等特殊字符及超链接
+- 如果存在一个订单对应多个物流单号的情况，可以使用英文逗号“,”分隔，便于更好的识别区分物流信息。
+- Excel表格必须是您在后台下载的且上传的物流单号列中不可以有空格，整体表格中不可以有空行。
+- 每批次上传物流单号最多10000笔，每次上传物流单号均需下载新表格。
+- 填写好物流信息时，需要注意表格中物流单号列，检查字段格式是否为文本格式。（如非文本格式可查看邮件中附件“物流单号更改为文本格式”文档查看详细方法）
+- 按上述说明将表格准确填写后回到后台单击或拖动文件上传已填写完整的表格。
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/FsVJbsd4Vohb4nx4ySfcWmRLn4c.png)
+
+- 上传成功后则会提示上传成功的行数，参考如下：
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/Z8f3bankCoGT01xV2M5ckWBWnhd.png)
+
+![图片](/img/help-center/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1/BkqrbyuQKooExPxBorxceU8rnWg.png)
