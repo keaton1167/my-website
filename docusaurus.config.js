@@ -13,6 +13,7 @@ const config = {
   title: 'ODPM 帮助中心',
   tagline: 'ODPM 产品文档、操作指引和常见问题',
   favicon: 'img/favicon.ico',
+  scripts: ['/js/attachment-preview.js'],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,17 +21,18 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://keaton1167.github.io',
+  url: 'https://support.oceanpayment.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'keaton1167', // Usually your GitHub org/user name.
   projectName: 'my-website', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  markdown: { hooks: { onBrokenMarkdownImages: 'warn' } },
 
   i18n: {
     defaultLocale: 'zh-Hans',
