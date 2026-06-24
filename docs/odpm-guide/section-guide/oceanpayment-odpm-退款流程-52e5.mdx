@@ -1,0 +1,68 @@
+---
+title: Oceanpayment ODPM-退款流程
+sidebar_label: Oceanpayment ODPM-退款流程
+sidebar_position: 1
+---
+#   退款提交方式
+
+## 退款API：
+
+- 自建站：与Oceanpayment对接退款API功能，通过商户网站后台系统提交后同步至Oceanpayment系统，并且在退款处理后也会API返回处理结果，建议采用此方式
+- Sass平台：Oceanpayment直接与平台已对接API，商户可直接在对应Sass平台操作提交退款申请（具体已对接的Sass平台清单可与Oceanpayment运营支持人员咨询）
+## Oceanpayment账户后台提交
+
+- 需登陆Oceanpayment提供的账户后台系统进行提交
+（https://odpm.oceanpayment.com）
+
+以上两种方式都可进行退款提交
+
+#  退款处理
+
+## 系统交互逻辑如下
+
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/FC0GbH7cXoMpHjxozexcmXy3nVe.png)
+
+## 状态变更说明：
+
+- 提交退款申请后，如退款申请提交错误，在“待审核”状态时，商户可通过Oceanpayment账户后台撤销此笔退款申请；
+- 退款申请已提交至银行/卡组织后，状态会更新为“审核成功未处理”，此过程Oceanpayment会在2小时内处理完成；
+- 银行/卡组织审核完毕，退款状态会更新为“成功”，表示银行/卡组织已经处理此退款，将金额退回至消费者发卡银行，具体到消费者账户时间未知，一般在3至10个工作日左右，主要取决于持卡人的发卡银行的处理速度； 
+- 可通过【退款管理】--【查询退款】跟踪退款状态
+## 其它说明：
+
+- Oceanpayment账户平台可支持部分退款及多次部分退款；
+- 为保障您资金安全，Oceanpayment系统增加了安全校验，每笔订单的总退款金额不会超过订单的成功交易金额，会提示您可退金额为0，无法重复提交；
+- 退款一般不收取持卡人费用，但是银行/卡组织会收取退款处理费，具体请参考合同中的报价；
+
+#  ODPM账户后台退款操作
+
+## 申请退款：
+
+以下两个功能模块都可提交
+
+- 【退款管理】-【退款申请】：输入账户订单号或支付ID，点击空白处，则出现该笔交易的交易金额、可退金额、终端号等信息；——默认退款金额为交易金额，即全额退款，如需要部分退款，则填写部分退款的金额，选择相应的退款原因后，提交即可。
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/R0FxbN1qrokGZixvJowcfF17n5g.png)
+
+- 【Payment】-【交易查询】-【正式交易】：查找相应订单，点击“详情”，出现交易信息页面，点击退款，则出现跟退款申请一样的页面，对应操作即可。
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/Vw0pbSaXBosZeRxI3fpcJyxqnbb.png)
+
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/KbTmbJKbtoFdo8xZrSWcJ9gvncf.png)
+
+## 查询退款结果：
+
+【退款管理】页面：查看退款处理状态：
+
+- **失败：**退款失败，可在备注查看失败原因（商户自行取消、账户可用资金不足、银行处理失败等情况）；
+- **待审核：**Oceanpayment还未处理此退款或由于账户剩余资金不足暂无法处理此退款金额
+- **审核成功未处理：**Oceanpayment已将退款申请提交至银行/卡组织，等待银行/卡组织结果返回；
+- **审核成功已处理：**银行/卡组织已处理此笔退款；
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/GY2PbmLKioFqN1xyA8yc8prwnXb.png)
+
+- 审核成功已处理状态的退款，可查看对应退款的查询号，此查询号可以提供给消费者与其发卡行核实退款进度情况
+- 查询号是银行/卡组织处理后返回（仅针对部分信用卡交易），不是实时，有延迟性，需在退款处理后几个工作日再查看，如显示空白，可联系Oceanpayment客户关系专员。
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/Y4Y2bCAVNo9SCCxBnI8chD8xnee.png)
+
+## 撤销退款
+
+- 【退款管理】-【撤销退款】：撤销退款操作（仅在退款申请的处理状态“待审核”，则此笔退款申请可撤销）
+![图片](/img/help-center/oceanpayment-odpm-退款流程-52e5/R6fbbI5J8oNOZCxMopqcmKminph.png)

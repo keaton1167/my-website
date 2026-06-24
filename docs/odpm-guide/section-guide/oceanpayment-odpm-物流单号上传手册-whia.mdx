@@ -1,0 +1,57 @@
+---
+title: Oceanpayment ODPM-物流单号上传手册
+sidebar_label: Oceanpayment ODPM-物流单号上传手册
+sidebar_position: 1
+---
+## 为什么要上传物流单号
+
+基于风险以及监管机构合规要求，需对商户的发货物流情况进行审核，物流单号信息上传情况会与结算金额相关联，请及时上传正确的物流网站及运输单号信息
+
+## 哪些订单需要上传物流单号：
+
+- 已发货的订单需及时将物流信息更新至Oceanpayment系统
+- 全额退款的订单/已发生拒付/调单的订单无需上传单号
+## 物流单号上传方式
+
+- Oceanpayment账户后台手动上传
+- 对接物流API，通过API直接同步物流信息
+## 账户后台上传物流单号操作流程： 
+
+- 批量上传物流凭证操作：
+【Payment】-【交易查询】-【正式交易】：选择相应交易时间段(建议查询近180天交易)，按照以下的筛选条件可以查询未上传物流单号的订单:
+
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/E7IKbxBRnovRcVxjmWLcmrE0nKc.png)
+
+- 【正式交易】页面有【批量上传物流凭证】跟【下载】按钮：
+- 【下载】的表格附上支付ID和订单号，但是只能下载近两个月的订单； 
+- 【批量上传物流凭证】中的【模版下载】则需要填写支付ID、账户订单号、物流单号跟物流跟踪网址。
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/Cfi2b0ccboPnJPxIjMics1ownh0.png)
+
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/FUQhbzbODoj0nnx79TtcQWJ3n9f.png)
+
+- 在【物流跟踪单号】填入物流单号（可以复制，复制时需注意只复制有内容的部分），在【物流跟踪网址】填入物流网站。 
+- 单笔订单上传物流跟踪单号操作：
+【Payment】-【交易查询】-【正式交易】-【详情】：筛选对应的支付订单，点击详情，
+
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/RVbFbKy72opwWsxZpuOcig51nKd.png)
+
+- 根据弹出来的交易信息页面，点击上传物流凭证，填入对应的跟踪单号、物流网址即可。
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/WTJ6b8czNoIm51xDOmaciDccn2c.png)
+
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/C5pGbynFyoWXSTx6Yl3cMQgInWe.png)
+
+## 物流单号格式需注意： 
+
+1. 物流网址不能出现“？、！”等特殊字符
+2. Excel表格的格式必须是正确的（上传物流单号内容不可以有空格，表格不可以有空行） 
+3. 上传的物流单号必须要有真实的发货公司 
+4. 上传的物流单号内容不可带有超链接 
+5. 每一次上传物流单号都需下载新表格
+6. 如果一笔订单对应多个物流单号，则用英文的逗号隔开
+7. 每批次上传最多可上传10000笔。 
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/JHDXb2AzJoxTHmx3G4ucn5OEndE.png)
+
+- 所有订单以上信息填完整之后，调整填写的字段格式（物流单号格式需为“文本格式”即左上角有绿色标记，如上截图），可使用以下两种方式：
+- 直接使用格式刷：选择【PaymentID】列è格式刷è使用【Tracking Number】整列 
+- 选中物流单号一列è数据è分列è下一步è下一步è文本è保存 
+![图片](/img/help-center/oceanpayment-odpm-物流单号上传手册-whia/GTnNbPy7so8TwDxmuKFcojM8nWb.png)
