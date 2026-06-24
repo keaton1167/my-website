@@ -13,7 +13,7 @@ const config = {
   title: 'ODPM 帮助中心',
   tagline: 'ODPM 产品文档、操作指引和常见问题',
   favicon: 'img/favicon.ico',
-  scripts: ['/js/attachment-preview.js'],
+  scripts: ['/my-website/js/attachment-preview.js'],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
