@@ -1,4 +1,8 @@
 {
   "label": "Payment 收单常见 FAQ",
-  "position": 2
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Payment 收单业务相关常见问题与操作指引。"
+  }
 }
