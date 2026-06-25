@@ -12,6 +12,9 @@
 /artifacts
 /.tmp-pdfconv
 
+# Miaoda app (management system - not for public repo)
+/miaoda-app
+
 # Misc
 .DS_Store
 .env.local
@@ -23,3 +26,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 deploy.log
+/scripts

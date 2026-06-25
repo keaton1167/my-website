@@ -1,9 +1,0 @@
-@source inline("text-{xs,sm,base,lg,xl,2xl,3xl,4xl,5xl,6xl,7xl,8xl,9xl}");
-
-@source inline("{bg,text,border}-{blue,pink,neutral,red,orange,violet,lime,yellow,green,teal,cyan,indigo,purple,amber,emerald,slate}-{50,{100..900..100},950}");
-
-@source inline("{bg,text,border}-{blue,pink,neutral,red,orange,violet,lime,yellow,green,teal,cyan,indigo,purple,amber,emerald,slate}");
-
-@source inline("{bg,text,border}-neutral-{00,1000}");
-
-@source inline("rounded-{none,sm,md,lg,xl,full}");
