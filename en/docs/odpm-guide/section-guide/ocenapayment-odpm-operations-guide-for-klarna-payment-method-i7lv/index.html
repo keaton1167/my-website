@@ -1,0 +1,440 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.1"><title data-rh=true>Ocenapayment ODPM - Operations Guide for Klarna Payment Method | ODPM 帮助中心</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:url content=https://keaton1167.github.io/my-website/en/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv /><meta data-rh=true property=og:locale content=en /><meta data-rh=true property=og:locale:alternate content=zh_Hans /><meta data-rh=true name=docusaurus_locale content=en /><meta data-rh=true name=docsearch:language content=en /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="Ocenapayment ODPM - Operations Guide for Klarna Payment Method | ODPM 帮助中心"/><meta data-rh=true name=description content="Operations Guide for Klarna Payment Method"/><meta data-rh=true property=og:description content="Operations Guide for Klarna Payment Method"/><link data-rh=true rel=icon href=/my-website/en/img/favicon.ico /><link data-rh=true rel=canonical href=https://keaton1167.github.io/my-website/en/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv /><link data-rh=true rel=alternate href=https://keaton1167.github.io/my-website/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv hreflang=zh-Hans /><link data-rh=true rel=alternate href=https://keaton1167.github.io/my-website/en/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv hreflang=en /><link data-rh=true rel=alternate href=https://keaton1167.github.io/my-website/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv hreflang=x-default /><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://keaton1167.github.io/my-website/en/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv","name":"Ocenapayment ODPM - Operations Guide for Klarna Payment Method","position":1}]}</script><script src=/my-website/js/attachment-preview.js></script><link rel=stylesheet href=/my-website/en/assets/css/styles.5478c963.css /><script src=/my-website/en/assets/js/runtime~main.efab9646.js defer></script><script src=/my-website/en/assets/js/main.986d2936.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme-597")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/my-website/en/img/logo.svg /><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="theme-layout-navbar navbar navbar--fixed-top"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/my-website/en/><div class=navbar__logo><img src=/my-website/en/img/logo.svg alt="ODPM Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"/><img src=/my-website/en/img/logo.svg alt="ODPM Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"/></div><b class="navbar__title text--truncate">ODPM 帮助中心</b></a><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/my-website/en/docs/intro>帮助中心</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill=currentColor d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/my-website/en/docs/intro><span title="欢迎使用 ODPM 帮助中心" class=linkLabel_WmDU>欢迎使用 ODPM 帮助中心</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role=button aria-expanded=true href=/my-website/en/docs/odpm-guide/section-guide/assign-account-setting-dxfl><span title="ODPM 账户后台操作指引" class=categoryLinkLabel_W154>ODPM 账户后台操作指引</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role=button aria-expanded=true tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/assign-account-setting-dxfl><span title=板块操作指引 class=categoryLinkLabel_W154>板块操作指引</span></a></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/assign-account-setting-dxfl><span title="Assign Account Setting" class=linkLabel_WmDU>Assign Account Setting</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/guideline-of-opccount-new-oldn><span title="Guideline of OPCCOUNT-New" class=linkLabel_WmDU>Guideline of OPCCOUNT-New</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/guideline-of-reconciliation-fbyk><span title="Guideline of Reconciliation" class=linkLabel_WmDU>Guideline of Reconciliation</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/iam申请opccount全球账户业务操作手册-2026年4月20日-7jdu><span title=IAM申请OPCCOUNT全球账户业务操作手册-2026年4月20日 class=linkLabel_WmDU>IAM申请OPCCOUNT全球账户业务操作手册-2026年4月20日</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/new-oceanpayment-odpm-digital-platform-guidelines-manual-ex66><span title="New- Oceanpayment-ODPM Digital Platform Guidelines Manual" class=linkLabel_WmDU>New- Oceanpayment-ODPM Digital Platform Guidelines Manual</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-op-card操作指引手册-2025-8-5-wqtd><span title="Oceanpayment ODPM-OP Card操作指引手册 2025-8-5" class=linkLabel_WmDU>Oceanpayment ODPM-OP Card操作指引手册 2025-8-5</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-二次验证说明手册-4fsw><span title="Oceanpayment ODPM-二次验证说明手册" class=linkLabel_WmDU>Oceanpayment ODPM-二次验证说明手册</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-子账户配置指引-soe3><span title="Oceanpayment ODPM-子账户配置指引" class=linkLabel_WmDU>Oceanpayment ODPM-子账户配置指引</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-小程序教程-kj1t><span title="Oceanpayment ODPM-小程序教程" class=linkLabel_WmDU>Oceanpayment ODPM-小程序教程</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-微信绑定操作手册-udo7><span title="Oceanpayment ODPM-微信绑定操作手册" class=linkLabel_WmDU>Oceanpayment ODPM-微信绑定操作手册</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-数字平台操作指引手册2025-10-09-f0nr><span title="Oceanpayment ODPM-数字平台操作指引手册2025-10-09" class=linkLabel_WmDU>Oceanpayment ODPM-数字平台操作指引手册2025-10-09</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-数据分析功能手册-2025-8a78><span title="Oceanpayment ODPM-数据分析功能手册 2025-" class=linkLabel_WmDU>Oceanpayment ODPM-数据分析功能手册 2025-</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-未上传物流信息订单查询及上传手册-11f1><span title="Oceanpayment ODPM-未上传物流信息订单查询及上传手册" class=linkLabel_WmDU>Oceanpayment ODPM-未上传物流信息订单查询及上传手册</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-物流单号上传手册-whia><span title="Oceanpayment ODPM-物流单号上传手册" class=linkLabel_WmDU>Oceanpayment ODPM-物流单号上传手册</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-账户后台网站申请指引-zlk1><span title="Oceanpayment ODPM-账户后台网站申请指引" class=linkLabel_WmDU>Oceanpayment ODPM-账户后台网站申请指引</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-退款流程-52e5><span title="Oceanpayment ODPM-退款流程" class=linkLabel_WmDU>Oceanpayment ODPM-退款流程</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/ocenapayment-odpm-operations-guide-for-klarna-payment-method-i7lv><span title="Ocenapayment ODPM - Operations Guide for Klarna Payment Method" class=linkLabel_WmDU>Ocenapayment ODPM - Operations Guide for Klarna Payment Method</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class=menu__link tabindex=0 href=/my-website/en/docs/odpm-guide/section-guide/opccount平台操作手册-2026-4-23-tdom><span title=OPCCOUNT平台操作手册-2026-4-23 class=linkLabel_WmDU>OPCCOUNT平台操作手册-2026-4-23</span></a></ul></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/payment-收单常见-faq><span title="Payment 收单常见 FAQ" class=categoryLinkLabel_W154>Payment 收单常见 FAQ</span></a><button aria-label="Expand sidebar category 'Payment 收单常见 FAQ'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/odpm-账户后台操作指引><span title="ODPM 账户后台操作指引" class=categoryLinkLabel_W154>ODPM 账户后台操作指引</span></a><button aria-label="Expand sidebar category 'ODPM 账户后台操作指引'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/op-card-常见-faq><span title="OP Card 常见 FAQ" class=categoryLinkLabel_W154>OP Card 常见 FAQ</span></a><button aria-label="Expand sidebar category 'OP Card 常见 FAQ'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/产品与服务><span title=产品与服务 class=categoryLinkLabel_W154>产品与服务</span></a><button aria-label="Expand sidebar category '产品与服务'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/合规与认证><span title=合规与认证 class=categoryLinkLabel_W154>合规与认证</span></a><button aria-label="Expand sidebar category '合规与认证'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/my-website/en/docs/category/客户服务><span title=客户服务 class=categoryLinkLabel_W154>客户服务</span></a><button aria-label="Expand sidebar category '客户服务'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=Breadcrumbs><ul class=breadcrumbs><li class=breadcrumbs__item><a aria-label="Home page" class=breadcrumbs__link href=/my-website/en/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><span class=breadcrumbs__link>ODPM 账户后台操作指引</span><li class=breadcrumbs__item><span class=breadcrumbs__link>板块操作指引</span><li class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link>Ocenapayment ODPM - Operations Guide for Klarna Payment Method</span></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><p><strong>Operations Guide for Klarna Payment Method</strong></p>
+<header><h1>Overview</h1></header>
+<p>For customers, a seamless and enjoyable shopping experience is paramount. It not only boosts customer satisfaction but also fosters repeat business and long-term loyalty. To create such an experience and effectively elevate customer satisfaction, merchants can focus on optimizing the following key areas:</p>
+<ul>
+<li class="">Information on merchants’ websites</li>
+<li class="">Customer experience</li>
+<li class="">Dispute</li>
+</ul>
+<h1>Information on Merchants’ Websites</h1>
+<p>Merchants should ensure that the information on their websites is as detailed and easy to understand as possible. The content that should be included is as follows for reference:</p>
+<ul>
+<li class=""><strong>Clear Terms and Conditions</strong></li>
+<li class=""><strong>Clear Refund and Return Policy, includes:</strong></li>
+<li class="">Estimated cost</li>
+<li class="">Return address</li>
+<li class="">What will happen if the customer doesn't retrieve the item</li>
+<li class="">Return timeframe</li>
+<li class="">Items that can/cannot be returned (including the handling process for damaged/faulty items)</li>
+<li class=""><strong>Easily Accessible Contact Information</strong></li>
+<li class="">It is preferable to have two different methods of contact</li>
+<li class="">Customer service operating hours</li>
+<li class="">Response timeframe for handling feedback on issues</li>
+<li class=""><strong>Delivery Information</strong></li>
+<li class="">Where are the goods shipped from?</li>
+<li class="">Average shipping time (The delivery duration may vary due to differences in markets or regions).</li>
+<li class=""><strong>Introduction on Refund Processing Flow</strong></li>
+<li class="">Merchant processing time</li>
+<li class="">It is recommended to provide Klarna-related information.</li>
+<li class=""><strong>Charges</strong></li>
+<li class="">Why is there a charge?</li>
+<li class="">Whether a refund is available or not?</li>
+<li class=""><strong>FAQ Page</strong></li>
+<li class="">It is recommended to include a dedicated "Klarna" section on the FAQ page.</li>
+<li class="">Include Links to "What is Klarna?" and Klarna's customer service.</li>
+<li class="">Details on refunds/payments processed via Klarna.</li>
+</ul>
+<h1>Customer Experience</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=checkout>Checkout<a href=#checkout class=hash-link aria-label="Direct link to Checkout" title="Direct link to Checkout" translate=no>​</a></h2>
+<p>Customers can view the items in their shopping cart and make any changes to the added items at any time. To better enhance the checkout experience for customers, reduce the volume of customer service inquiries related to checkout issues, and build customer trust, we recommend the following:</p>
+<ul>
+<li class=""><strong>Ensure that customers' shopping cart lists contain accurate information, including:</strong></li>
+<li class="">Image</li>
+<li class="">Description</li>
+<li class="">Product’s price</li>
+<li class=""><strong>Display shipping options, costs, and estimated delivery times to facilitate:</strong></li>
+<li class="">Customers' ability to choose the shipping method that best suits their needs.</li>
+<li class="">Customers' understanding of when they can expect to receive their goods.</li>
+<li class=""><strong>Clearly define the checkout total and all associated fees.</strong></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=product-delivery>Product Delivery<a href=#product-delivery class=hash-link aria-label="Direct link to Product Delivery" title="Direct link to Product Delivery" translate=no>​</a></h2>
+<p>After the customer checks out and the order is captured/activated, payment processing from the customer (based on the payment method they selected) will commence. Capturing orders too early or too late often leads to customer inquiries regarding their order status. To effectively reduce the volume of customer service inquiries about the current status of orders, it is recommended that merchants:</p>
+<ul>
+<li class=""><strong>Ensure that orders are captured/activated when the product is shipped.</strong></li>
+<li class=""><strong>Strive to deliver products within 14 days.</strong></li>
+<li class=""><strong>Provide customers with a valid logistics tracking ID.</strong></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=post-sale-communication>Post-Sale Communication<a href=#post-sale-communication class=hash-link aria-label="Direct link to Post-Sale Communication" title="Direct link to Post-Sale Communication" translate=no>​</a></h2>
+<p>After the customer checks out and the product is delivered, to help customers' understanding of information related to their purchased items, it is recommended that merchants:</p>
+<ul>
+<li class=""><strong>Provide post-sale communication to customers via email. The content of these emails should include:</strong></li>
+<li class="">Order confirmation</li>
+<li class="">Shipping confirmation</li>
+<li class="">Shipping details with tracking information and estimated delivery time</li>
+<li class=""><strong>Provide Klarna with a customer service email address to:</strong></li>
+<li class="">Enable Klarna to refer customers to the merchant effectively.</li>
+<li class="">Allow Klarna to share the merchant's contact information with customers when necessary.</li>
+<li class=""><strong>If a customer cancels an order or initiates a return, send the customer a notification confirming the cancellation or refund to:</strong></li>
+<li class="">Confirm that the order has been canceled/refunded.</li>
+<li class="">Confirm when the refund will be processed and when it will be initiated.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=customer-service>Customer Service<a href=#customer-service class=hash-link aria-label="Direct link to Customer Service" title="Direct link to Customer Service" translate=no>​</a></h2>
+<p>When issues arise during or after a product purchase, one of the most critical aspects for customers is receiving assistance in a timely manner. Over 90% of customers highly value excellent customer service and base their decision to repurchase on the quality of customer service they receive.</p>
+<p>If a customer contacts a merchant with a query but does not receive a response, they may reach out to Klarna for assistance. However, since Klarna cannot answer all customer inquiries, the customer will ultimately need to contact the merchant again for confirmation. This not only incurs additional operational costs for the merchant but also results in a negative customer experience. Therefore, to resolve issues promptly, enhance the customer experience, and improve customer repurchase rates, the best practices recommended for merchants are:</p>
+<ul>
+<li class=""><strong>Promptly notify customers that their query or feedback has been received and respond to them within two business days.</strong></li>
+<li class=""><strong>Ensure that all questions and relevant information in customer inquiries are answered to the best of your ability.</strong></li>
+<li class=""><strong>Avoid or minimize the use of auto-replies (as they often fail to address the customer's query).</strong></li>
+</ul>
+<h1>Dispute</h1>
+<p>A dispute arises when a customer, after purchasing a product, questions whether they are liable for payment.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=dispute-reasons>Dispute Reasons<a href=#dispute-reasons class=hash-link aria-label="Direct link to Dispute Reasons" title="Direct link to Dispute Reasons" translate=no>​</a></h2>
+<p>Regarding the types of disputes, they can be summarized as follows:</p>
+<ul>
+<li class=""><strong>Returns:</strong> The customer claims to have returned all or part of the order.</li>
+<li class=""><strong>Goods not received:</strong> The customer claims not to have received all or part of the order.</li>
+<li class=""><strong>Incorrect Invoice:</strong> The customer claims the received invoice is incorrect (e.g., missing discounts or inaccurate items listed).</li>
+<li class=""><strong>Faulty Goods:</strong> The customer claims to have received damaged goods or that part of the order is missing.</li>
+<li class=""><strong>Already Paid:</strong> The customer claims to have already paid the Klarna invoice (e.g., by stating they paid directly to the merchant).</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=dispute-processing-flow>Dispute Processing Flow<a href=#dispute-processing-flow class=hash-link aria-label="Direct link to Dispute Processing Flow" title="Direct link to Dispute Processing Flow" translate=no>​</a></h2>
+<ul>
+<li class="">
+<p><strong>Initiation</strong>
+After a customer raises a dispute, there is a 21-day window to resolve the issue. If no resolution is reached within this timeframe and the customer has provided sufficient evidence to validate the dispute, the dispute will be forwarded to the merchant via Oceanpayment dispute notification. Meanwhile, merchants can search and handle disputes on Oceanpayment Merchant Portal / ODPM platform.</p>
+</li>
+<li class="">
+<p><strong>Handling</strong>
+Through the channels specified in the dispute process, Klarna will share the relevant information collected with the merchant and notify the merchant of the information required to resolve the dispute. This includes providing all information requested in the dispute and/or evidence that supports the merchant's position (e.g., proof of delivery, terms and conditions on the website, etc.).</p>
+</li>
+</ul>
+<p><strong>Note:</strong> For "Returns" disputes, the 21-day period is calculated from the return date, not the creation date of the dispute.</p>
+<ul>
+<li class="">
+<p><strong>Resolution</strong>
+Once Klarna receives feedback from the merchant, a decision will be made to resolve the dispute:</p>
+</li>
+<li class="">
+<p>If the merchant provides sufficient evidence, the customer will be held liable for payment.</p>
+</li>
+<li class="">
+<p>If the dispute is resolved in favor of the customer or if the merchant fails to respond to the dispute, a chargeback will be processed.</p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=optimized-handling-strategies-for-major-customer-complaint-causes>Optimized Handling Strategies for Major Customer Complaint Causes<a href=#optimized-handling-strategies-for-major-customer-complaint-causes class=hash-link aria-label="Direct link to Optimized Handling Strategies for Major Customer Complaint Causes" title="Direct link to Optimized Handling Strategies for Major Customer Complaint Causes" translate=no>​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=returns-cancellations-and-refunds>Returns, Cancellations, and Refunds<a href=#returns-cancellations-and-refunds class=hash-link aria-label="Direct link to Returns, Cancellations, and Refunds" title="Direct link to Returns, Cancellations, and Refunds" translate=no>​</a></h2>
+<ul>
+<li class="">
+<p><strong>Return</strong>
+Failure by merchants to process returns promptly after a customer initiates one can lead to dissatisfaction and even escalate into disputes. Enhancing the customer experience by enabling refunds without requiring prior contact with the merchant for instructions or return labels is recommended. The following solutions are proposed for return processing:</p>
+</li>
+<li class="">
+<p>Provide Self-Service Return Options
+Offer customers methods to initiate returns independently (e.g., prepaid return labels, QR code generation for returns).</p>
+</li>
+<li class="">
+<p>Process Returns Within 14 Days
+Merchants shall register returned items immediately upon receipt to ensure the customer service team can respond to inquiries within 2 business days and be fully informed about the return details, including:</p>
+</li>
+<li class="">
+<p>Return Process</p>
+</li>
+<li class="">
+<p>Reasons for Return Rejection</p>
+</li>
+<li class="">
+<p>Return Registration Confirmation</p>
+</li>
+<li class="">
+<p>Estimated Refund Timeline</p>
+</li>
+<li class="">
+<p>Provide customers with a local return address to minimize additional shipping costs and reduce refund processing times.</p>
+</li>
+<li class="">
+<p>Notify customers that refunds for in-store returns will be processed via Klarna (or the applicable payment service provider), not directly by the merchant.</p>
+</li>
+<li class="">
+<p>Clear Return Information
+Prominently display your return policy and a Return FAQ section on your website. Key details to include:</p>
+</li>
+<li class="">
+<p>Specify which products qualify for returns</p>
+</li>
+<li class="">
+<p>Return Process</p>
+</li>
+<li class="">
+<p>Expected Refund Timeline</p>
+</li>
+<li class="">
+<p><strong>Cancellations and Refunds</strong>
+When customers return items to the designated return address, they expect a prompt refund. Delayed refunds often lead to potential dispute fees and a negative customer experience. Recommended solutions include:</p>
+</li>
+<li class="">
+<p>Issue refunds as soon as possible after receiving the returned item, with a maximum processing time of 3 business days.</p>
+</li>
+<li class="">
+<p>Ensure refunds are returned to the customer’s original payment method。</p>
+</li>
+</ul>
+<p><strong>Note:</strong></p>
+<p>Refunds must be processed via the original payment method, not directly by the merchant. If the merchant issues a refund directly, Klarna’s invoice will remain valid and must still be paid by the customer, causing confusion and additional operational costs for the merchant.</p>
+<p>By registering the return through the merchant’s Klarna portal or the payment provider’s backend, Klarna will adjust the invoice and send an updated version to the customer. If the customer has already paid the invoice, Klarna will initiate the refund.</p>
+<p><strong>When receiving such disputes, providing the following information can help merchants improve their success rate in appealing the dispute:</strong></p>
+<p>Klarna will ask the merchant if they received the return. If the merchant did receive it, please ensure the invoice for the related order is adjusted. If the merchant received the return but does not accept it, make sure to explain the reasoning in the comment section.</p>
+<p>Please note that if the merchant selects the option indicating they will make adjustments to the statement, they are committing to issuing a refund equal to the disputed amount. If the merchant does not perform the refund within 96 hours of responding, Klarna will automatically initiate a chargeback for the disputed amount.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=goods-not-received>Goods not received<a href=#goods-not-received class=hash-link aria-label="Direct link to Goods not received" title="Direct link to Goods not received" translate=no>​</a></h2>
+<p>In online shopping, providing accurate and transparent information to customers is crucial. This section highlights best practices for merchants, including tracking information shared with customers, efficient order processing, and the importance of effective communication on your website. By prioritizing these areas, you can significantly enhance customer satisfaction, reduce disputes, and improve operational efficiency.</p>
+<p>Prioritizing the organization of order and delivery information helps prevent non-receipt of goods, thereby reducing disputes. <strong>We recommend the following best practices:</strong></p>
+<ul>
+<li class="">
+<p><strong>Fast Delicery</strong>
+Ensure items are delivered to customers within 20 days from the order date.</p>
+</li>
+<li class="">
+<p><strong>Accurate Order Records</strong>
+Maintain records at the time of shipment. If multiple packages are sent (partial order fulfillment), record only the quantity of items dispatched.</p>
+</li>
+<li class="">
+<p><strong>Comprehensive Cart Page</strong>
+The cart page is an ideal location for customers to access delivery information, including:</p>
+</li>
+<li class="">
+<p>Delivery options and costs</p>
+</li>
+<li class="">
+<p>Additional shipping or customs fees</p>
+</li>
+<li class="">
+<p>Estimated delivery timeframes</p>
+</li>
+<li class="">
+<p><strong>Send Confirmation Emails</strong>
+Proactively sharing information with customers reduces subsequent issues. The best times to send confirmation emails are:</p>
+</li>
+<li class="">
+<p>After order placement (order confirmation)</p>
+</li>
+<li class="">
+<p>At the time of shipment</p>
+</li>
+<li class="">
+<p><strong>Provide Tracking Numbers</strong>
+Offer tracking numbers to enable customers to independently monitor their order status. Tracking numbers can be shared via:</p>
+</li>
+<li class="">
+<p>Order confirmation emails</p>
+</li>
+<li class="">
+<p>Shipment notification emails</p>
+</li>
+<li class="">
+<p><strong>Clear Delivery Information</strong>
+Send customers easily accessible details for tracking purposes. We recommend clarifying the following in your website’s FAQs:</p>
+</li>
+<li class="">
+<p>Pre-shipment preparation time</p>
+</li>
+<li class="">
+<p>Typical shipping timelines</p>
+</li>
+<li class="">
+<p>Estimated delivery times by country/region</p>
+</li>
+<li class="">
+<p>How to obtain tracking numbers</p>
+</li>
+<li class="">
+<p><strong>Effective Support</strong>
+To enable customers to report quickly, we suggest:</p>
+</li>
+<li class="">
+<p>Providing a feedback process via a dedicated email address or user-friendly form</p>
+</li>
+<li class="">
+<p>Explaining in your FAQs how customers can report issues or initiate returns, including specific steps</p>
+</li>
+<li class="">
+<p>Informing customers in your FAQs when and how to contact Klarna</p>
+</li>
+<li class="">
+<p><strong>Comprehensive Customer Service</strong>
+Ensure your customer service team responds to inquiries within 2 business days and can provide:</p>
+</li>
+<li class="">
+<p>Order and shipping confirmations</p>
+</li>
+<li class="">
+<p>Estimated delivery times/tracking numbers</p>
+</li>
+<li class="">
+<p>Instructions on reporting issues to the merchant</p>
+</li>
+<li class="">
+<p>Guidance on when and how to contact Klarna</p>
+</li>
+</ul>
+<p><strong>When receiving such disputes, providing the following information can help merchants improve their success rate in appealing the dispute:</strong> </p>
+<ul>
+<li class=""><strong>Physical goods</strong></li>
+<li class="">The tracking ID of the delivery</li>
+<li class="">The address to which the order was delivered</li>
+<li class="">The Date the order was delivered</li>
+<li class="">The delivery status of the parcel (optional)</li>
+<li class="">One piece of additional evidence to prove the entire order was delivered. Options include, but are not limited to, packing list or delivery note, weight of items and parcel etc.</li>
+<li class="">A signature from the customer showing the item was received (for orders >750 EUR) (optional)</li>
+<li class=""><strong>Intangible Goods</strong></li>
+<li class="">The date the order was sent</li>
+<li class="">The email address the order was sent to (optional)</li>
+<li class="">The IP the order was sent to (optional)</li>
+<li class="">Any evidence the item was received, accessed or used (optional)</li>
+<li class=""><strong>On Demand/Food Delivery</strong></li>
+<li class="">The customer's name (optional)</li>
+<li class="">The date and time of delivery (optional)</li>
+<li class="">The delivery status of the parcel (optional)</li>
+<li class="">The address to which the order was delivered (optional)</li>
+<li class="">The delivery choice (optional)</li>
+</ul>
+<p><strong>Note:</strong> In addition to the requests related to each category, the below information is required for all Goods not received disputes:</p>
+<ul>
+<li class="">The tracking ID of the delivery</li>
+<li class="">The shipping carrier used to deliver the package</li>
+<li class="">The Date the order was delivered</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=faultygoods>Faulty Goods<a href=#faultygoods class=hash-link aria-label="Direct link to Faulty Goods" title="Direct link to Faulty Goods" translate=no>​</a></h2>
+<p>Faulty goods can severely undermine the shopping experience and erode customer trust in both the merchant and Klarna. In this section, as a merchant, you play a pivotal role in ensuring product quality and customer satisfaction. Accurate product descriptions, clear definitions of damaged or mismatched items, and straightforward reporting processes empower customers to make informed decisions. Merchants should efficiently address issues by submitting evidence and adhering to return/exchange policies, offering refunds or replacements promptly.</p>
+<p><strong>The following best practices will significantly help reduce customer complaints related to faulty goods:</strong></p>
+<ul>
+<li class="">
+<p><strong>Accurate Product Descriptions</strong>
+Provide detailed and precise product descriptions, including specifications and high-quality images, displayed to customers during shopping and checkout.</p>
+</li>
+<li class="">
+<p>Return process</p>
+</li>
+<li class="">
+<p>Explain valid reasons for rejecting returns</p>
+</li>
+<li class="">
+<p>Confirm return registration</p>
+</li>
+<li class="">
+<p>State estimated refund processing times</p>
+</li>
+<li class="">
+<p><strong>Define Defective/Non-Conforming Items</strong>
+Establish a transparent policy that explicitly defines what constitutes a defective or non-conforming item and explains how the merchant will address such cases.</p>
+</li>
+<li class="">
+<p><strong>Provide a Reporting Process</strong>
+Ensure customers can easily report defective or non-conforming items through:</p>
+</li>
+<li class="">
+<p>Their consumer account dashboard.</p>
+</li>
+<li class="">
+<p>Direct contact with customer service representatives.</p>
+</li>
+<li class="">
+<p><strong>Resolve Issues Promptly</strong>
+Merchants should handle customer requests for defective products swiftly by:</p>
+</li>
+<li class="">
+<p>Issuing refunds.</p>
+</li>
+<li class="">
+<p>Dispatching replacements at the merchant’s expense.</p>
+</li>
+<li class="">
+<p><strong>Customer Service Support</strong>
+Customer service must respond promptly, providing an initial reply within 2 business days to address inquiries about product quality issues, incorrect items received, refund confirmations.</p>
+</li>
+</ul>
+<p><strong>When receiving such disputes, providing the following information can help merchants improve their success rate in appealing the dispute:</strong> </p>
+<ul>
+<li class=""><strong>Add reply (optional)</strong></li>
+<li class=""><strong>Attachment (max. 7.3MB)</strong>
+<strong>Note:</strong> Questions Klarna commonly ask are "Have you been in contact with the customer?" and "Have you come to an agreement?" (such as refunding the faulty goods or resending the product).</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=incorrect-invoice>Incorrect Invoice<a href=#incorrect-invoice class=hash-link aria-label="Direct link to Incorrect Invoice" title="Direct link to Incorrect Invoice" translate=no>​</a></h2>
+<p>Transparency is paramount when customers shop online. Merchants must ensure customers are fully aware of the items added to their cart and the total costs they will incur. In cases of upselling, merchants must guarantee that customers understand what is happening and can clearly see the added products and their prices during checkout. If hidden fees are included in the order total or discounts are not explicitly stated, customers are likely to raise concerns with both Klarna and the merchant. This not only causes confusion but may also erode trust in the merchant and Klarna, as customers may feel deceived. To address this, merchants must provide a detailed checkout summary.</p>
+<p><strong>By adhering to these best practices, partners can reduce operational costs and disputes.</strong></p>
+<ul>
+<li class="">
+<p><strong>Remove Out-of-Stock Items</strong>
+The best approach is to regularly update your website with accurate inventory status. To further assist customers, display estimated restocking dates for out-of-stock items and offer a notification option for when they become available.</p>
+</li>
+<li class="">
+<p><strong>Ensure Accurate Checkout Information</strong>
+Clearly present product details before checkout, including:</p>
+</li>
+<li class="">
+<p>Accurate item name, image, description, size, quantity, and price.</p>
+</li>
+<li class="">
+<p>The final order price after discounts, promotions, and additional fees are applied.</p>
+</li>
+<li class="">
+<p>Recommend supplementary products (upsells) while explicitly allowing customers to skip or remove them.</p>
+</li>
+<li class="">
+<p><strong>Clarify Subscription Services</strong>
+If offering subscriptions, explicitly inform customers before purchase to avoid order cancellations and disputes.</p>
+</li>
+<li class="">
+<p><strong>Prevent Duplicate Orders</strong>
+Implement safety checks during checkout, such as confirmation pop-ups or messages, to verify order success and prevent duplicates.</p>
+</li>
+<li class="">
+<p><strong>Send Order Confirmation Emails</strong>
+Promptly email customers after order completion with:</p>
+</li>
+<li class="">
+<p>Order number.</p>
+</li>
+<li class="">
+<p>Item details (image, description, size, quantity, price).</p>
+</li>
+<li class="">
+<p>The final order price after discounts, promotions, and additional fees.</p>
+</li>
+<li class="">
+<p>If shipped in multiple packages, note that Klarna will generate separate billing entries.</p>
+</li>
+<li class="">
+<p><strong>Submit Accurate Orders to Klarna</strong>
+Send Klarna the same item names, photos, and order details displayed on your website and in confirmation emails to align with customer expectations and prevent disputes.</p>
+</li>
+<li class="">
+<p><strong>Report Incorrect Invoice Information to Klarna</strong>
+Clarify in your website’s FAQ that customers should contact you for incorrect invoices or duplicate orders. Issues to forward to Klarna include:</p>
+</li>
+<li class="">
+<p>Payment dates and due dates.</p>
+</li>
+<li class="">
+<p>How to dispute orders in the Klarna app.</p>
+</li>
+<li class="">
+<p>Refunds (only for registered returns).</p>
+</li>
+<li class="">
+<p><strong>Comprehensive Customer Service</strong>
+Ensure your customer service team responds to inquiries within 2 business days and can address:</p>
+</li>
+<li class="">
+<p>Out-of-stock items.</p>
+</li>
+<li class="">
+<p>Invoice errors.</p>
+</li>
+<li class="">
+<p>Duplicate order issues.</p>
+</li>
+<li class="">
+<p>Necessary actions to resolve problems.</p>
+</li>
+<li class="">
+<p>When to contact you or Klarna.</p>
+</li>
+</ul>
+<p><strong>When receiving such disputes, providing the following information can help merchants improve their success rate in appealing the dispute:</strong> </p>
+<ul>
+<li class=""><strong>Add reply</strong></li>
+<li class=""><strong>Attachment (max. 7.3MB)</strong>
+<strong>Note:</strong> Klarna will request from the merchant to prove that the invoice created by the merchant is correct.</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/my-website/en/docs/odpm-guide/section-guide/oceanpayment-odpm-退款流程-52e5><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>Oceanpayment ODPM-退款流程</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/my-website/en/docs/odpm-guide/section-guide/opccount平台操作手册-2026-4-23-tdom><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>OPCCOUNT平台操作手册-2026-4-23</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#checkout class="table-of-contents__link toc-highlight">Checkout</a><li><a href=#product-delivery class="table-of-contents__link toc-highlight">Product Delivery</a><li><a href=#post-sale-communication class="table-of-contents__link toc-highlight">Post-Sale Communication</a><li><a href=#customer-service class="table-of-contents__link toc-highlight">Customer Service</a><li><a href=#dispute-reasons class="table-of-contents__link toc-highlight">Dispute Reasons</a><li><a href=#dispute-processing-flow class="table-of-contents__link toc-highlight">Dispute Processing Flow</a><li><a href=#optimized-handling-strategies-for-major-customer-complaint-causes class="table-of-contents__link toc-highlight">Optimized Handling Strategies for Major Customer Complaint Causes</a><li><a href=#returns-cancellations-and-refunds class="table-of-contents__link toc-highlight">Returns, Cancellations, and Refunds</a><li><a href=#goods-not-received class="table-of-contents__link toc-highlight">Goods not received</a><li><a href=#faultygoods class="table-of-contents__link toc-highlight">Faulty Goods</a><li><a href=#incorrect-invoice class="table-of-contents__link toc-highlight">Incorrect Invoice</a></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class=footer__title>文档</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/my-website/en/docs/intro>帮助中心</a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>支持</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/my-website/en/docs/intro>客户服务</a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 Oceanpayment. All rights reserved.</div></div></div></footer></div></body>

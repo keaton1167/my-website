@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" fill="none" width="48" zoomAndPan="magnify" style="stroke-opacity: 1.0;" contentStyleType="text/css" viewBox="0 0 48 48" height="48" preserveAspectRatio="xMidYMid meet" version="1.0">
+<rect stroke-linecap="round" x="4" y="8" fill-opacity="1.0" fill="#4ADE80" width="40" stroke-linejoin="round" rx="2" height="36" stroke="#4ADE80" stroke-width="2.0"/>
+<path d="M4 20H44" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="white"/>
+<path d="M4 32H44" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="white"/>
+<path d="M17 4V12" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="#4ADE80"/>
+<path d="M31 4V12" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="#4ADE80"/>
+<path d="M17 20V44" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="white"/>
+<path d="M31 20V44" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="white"/>
+<path d="M44 13V39" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="#4ADE80"/>
+<path d="M4 13L4 39" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="#4ADE80"/>
+<path d="M14 44H34" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke="#4ADE80"/>
+</svg>
